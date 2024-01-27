@@ -16,9 +16,9 @@
 		2E5B8F402B63D81C00C9F525 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5B8F3F2B63D81C00C9F525 /* Int+Extensions.swift */; };
 		2E5B8F422B63D82900C9F525 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5B8F412B63D82900C9F525 /* Double+Extensions.swift */; };
 		2E5B8F442B63D83300C9F525 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5B8F432B63D83300C9F525 /* Color+Extensions.swift */; };
-		523A0ACC2B648A4100CC0F29 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A0ACB2B648A4100CC0F29 /* User.swift */; };
-		523A0ACE2B648A5E00CC0F29 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A0ACD2B648A5E00CC0F29 /* UserListView.swift */; };
-		523A0AD02B648AD600CC0F29 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A0ACF2B648AD600CC0F29 /* UserListViewModel.swift */; };
+		523A0AD22B64951200CC0F29 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A0AD12B64951200CC0F29 /* User.swift */; };
+		523A0AD42B64952900CC0F29 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A0AD32B64952900CC0F29 /* SwiftUIView.swift */; };
+		523A0AD62B64954700CC0F29 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523A0AD52B64954700CC0F29 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		2E5B8F3F2B63D81C00C9F525 /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
 		2E5B8F412B63D82900C9F525 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		2E5B8F432B63D83300C9F525 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
-		523A0ACB2B648A4100CC0F29 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		523A0ACD2B648A5E00CC0F29 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
-		523A0ACF2B648AD600CC0F29 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		523A0AD12B64951200CC0F29 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		523A0AD32B64952900CC0F29 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		523A0AD52B64954700CC0F29 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		1F5B9E20221D61290051B5F2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				523A0ACB2B648A4100CC0F29 /* User.swift */,
+				523A0AD12B64951200CC0F29 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 		523A0AC92B64886C00CC0F29 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				523A0ACF2B648AD600CC0F29 /* UserListViewModel.swift */,
+				523A0AD52B64954700CC0F29 /* UserViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -187,7 +187,7 @@
 		523A0ACA2B64887D00CC0F29 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				523A0ACD2B648A5E00CC0F29 /* UserListView.swift */,
+				523A0AD32B64952900CC0F29 /* SwiftUIView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -336,11 +336,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E5B8F442B63D83300C9F525 /* Color+Extensions.swift in Sources */,
+				523A0AD62B64954700CC0F29 /* UserViewModel.swift in Sources */,
+				523A0AD42B64952900CC0F29 /* SwiftUIView.swift in Sources */,
 				2E5B8F422B63D82900C9F525 /* Double+Extensions.swift in Sources */,
+				523A0AD22B64951200CC0F29 /* User.swift in Sources */,
 				2E5B8F402B63D81C00C9F525 /* Int+Extensions.swift in Sources */,
-				523A0AD02B648AD600CC0F29 /* UserListViewModel.swift in Sources */,
-				523A0ACC2B648A4100CC0F29 /* User.swift in Sources */,
-				523A0ACE2B648A5E00CC0F29 /* UserListView.swift in Sources */,
 				1FA5338D201E1FDE00747E55 /* AppDelegate.swift in Sources */,
 				2E5B8F3E2B63D80200C9F525 /* Date+Extensions.swift in Sources */,
 			);
