@@ -12,6 +12,7 @@
 		523C30F62B7D0FB3009216A6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C30F52B7D0FB3009216A6 /* Item.swift */; };
 		523C30F82B7D0FB4009216A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523C30F72B7D0FB4009216A6 /* Assets.xcassets */; };
 		523C30FB2B7D0FB4009216A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523C30FA2B7D0FB4009216A6 /* Preview Assets.xcassets */; };
+		523C31082B7D18E8009216A6 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 523C31072B7D18E8009216A6 /* MapboxMaps */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		523C30F52B7D0FB3009216A6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		523C30F72B7D0FB4009216A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		523C30FA2B7D0FB4009216A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		523C31052B7D1873009216A6 /* -d-public-transportation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-d-public-transportation-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523C31082B7D18E8009216A6 /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +56,7 @@
 		523C30F02B7D0FB3009216A6 /* 3d-public-transportation */ = {
 			isa = PBXGroup;
 			children = (
+				523C31052B7D1873009216A6 /* -d-public-transportation-Info.plist */,
 				523C30F12B7D0FB3009216A6 /* _d_public_transportationApp.swift */,
 				523C30F32B7D0FB3009216A6 /* ContentView.swift */,
 				523C30F52B7D0FB3009216A6 /* Item.swift */,
@@ -86,6 +90,9 @@
 			dependencies = (
 			);
 			name = "3d-public-transportation";
+			packageProductDependencies = (
+				523C31072B7D18E8009216A6 /* MapboxMaps */,
+			);
 			productName = "3d-public-transportation";
 			productReference = 523C30EE2B7D0FB3009216A6 /* 3d-public-transportation.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +121,9 @@
 				Base,
 			);
 			mainGroup = 523C30E52B7D0FB3009216A6;
+			packageReferences = (
+				523C31062B7D18E8009216A6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
 			productRefGroup = 523C30EF2B7D0FB3009216A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -279,6 +289,7 @@
 				DEVELOPMENT_TEAM = N72YV583PU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-d-public-transportation-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,6 +319,7 @@
 				DEVELOPMENT_TEAM = N72YV583PU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-d-public-transportation-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,6 +360,26 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		523C31062B7D18E8009216A6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 11.0.0;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		523C31072B7D18E8009216A6 /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 523C31062B7D18E8009216A6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 523C30E62B7D0FB3009216A6 /* Project object */;
 }
