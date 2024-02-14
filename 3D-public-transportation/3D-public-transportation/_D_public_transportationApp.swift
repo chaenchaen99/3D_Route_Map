@@ -1,15 +1,15 @@
 //
-//  _D_public_transportationApp.swift
-//  3D-public-transportation
+//  _d_public_transportationApp.swift
+//  3d-public-transportation
 //
-//  Created by 정채연 on 2/13/24.
+//  Created by 정채연 on 2/15/24.
 //
 
 import SwiftUI
 import SwiftData
 
 @main
-struct _D_public_transportationApp: App {
+struct _d_public_transportationApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
