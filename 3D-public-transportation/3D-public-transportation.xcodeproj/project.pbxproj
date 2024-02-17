@@ -7,83 +7,84 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		523C30F22B7D0FB3009216A6 /* _d_public_transportationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C30F12B7D0FB3009216A6 /* _d_public_transportationApp.swift */; };
-		523C30F42B7D0FB3009216A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C30F32B7D0FB3009216A6 /* ContentView.swift */; };
-		523C30F62B7D0FB3009216A6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523C30F52B7D0FB3009216A6 /* Item.swift */; };
-		523C30F82B7D0FB4009216A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523C30F72B7D0FB4009216A6 /* Assets.xcassets */; };
-		523C30FB2B7D0FB4009216A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523C30FA2B7D0FB4009216A6 /* Preview Assets.xcassets */; };
-		523C31082B7D18E8009216A6 /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 523C31072B7D18E8009216A6 /* MapboxMaps */; };
+		5272D0C32B7E3D8B00A7F1AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272D0C22B7E3D8B00A7F1AF /* AppDelegate.swift */; };
+		5272D0C52B7E3D8B00A7F1AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272D0C42B7E3D8B00A7F1AF /* SceneDelegate.swift */; };
+		5272D0C72B7E3D8B00A7F1AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272D0C62B7E3D8B00A7F1AF /* ViewController.swift */; };
+		5272D0CA2B7E3D8B00A7F1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5272D0C82B7E3D8B00A7F1AF /* Main.storyboard */; };
+		5272D0CC2B7E3D8D00A7F1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5272D0CB2B7E3D8D00A7F1AF /* Assets.xcassets */; };
+		5272D0CF2B7E3D8D00A7F1AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5272D0CD2B7E3D8D00A7F1AF /* LaunchScreen.storyboard */; };
+		5272D0D82B7E3DEC00A7F1AF /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 5272D0D72B7E3DEC00A7F1AF /* MapboxMaps */; };
+		5272D0DA2B7E422A00A7F1AF /* Car.gltf in Resources */ = {isa = PBXBuildFile; fileRef = 5272D0D92B7E422A00A7F1AF /* Car.gltf */; };
+		5272D0DC2B803F3500A7F1AF /* BearingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272D0DB2B803F3500A7F1AF /* BearingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		523C30EE2B7D0FB3009216A6 /* 3d-public-transportation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3d-public-transportation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		523C30F12B7D0FB3009216A6 /* _d_public_transportationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _d_public_transportationApp.swift; sourceTree = "<group>"; };
-		523C30F32B7D0FB3009216A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		523C30F52B7D0FB3009216A6 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		523C30F72B7D0FB4009216A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		523C30FA2B7D0FB4009216A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		523C31052B7D1873009216A6 /* -d-public-transportation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-d-public-transportation-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5272D0BF2B7E3D8B00A7F1AF /* 3d-public-transportation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3d-public-transportation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5272D0C22B7E3D8B00A7F1AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5272D0C42B7E3D8B00A7F1AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5272D0C62B7E3D8B00A7F1AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5272D0C92B7E3D8B00A7F1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5272D0CB2B7E3D8D00A7F1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5272D0CE2B7E3D8D00A7F1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5272D0D02B7E3D8D00A7F1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5272D0D92B7E422A00A7F1AF /* Car.gltf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Car.gltf; path = ../../../../Downloads/Car.gltf; sourceTree = "<group>"; };
+		5272D0DB2B803F3500A7F1AF /* BearingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		523C30EB2B7D0FB3009216A6 /* Frameworks */ = {
+		5272D0BC2B7E3D8B00A7F1AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523C31082B7D18E8009216A6 /* MapboxMaps in Frameworks */,
+				5272D0D82B7E3DEC00A7F1AF /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		523C30E52B7D0FB3009216A6 = {
+		5272D0B62B7E3D8B00A7F1AF = {
 			isa = PBXGroup;
 			children = (
-				523C30F02B7D0FB3009216A6 /* 3d-public-transportation */,
-				523C30EF2B7D0FB3009216A6 /* Products */,
+				5272D0DB2B803F3500A7F1AF /* BearingManager.swift */,
+				5272D0C12B7E3D8B00A7F1AF /* 3d-public-transportation */,
+				5272D0C02B7E3D8B00A7F1AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		523C30EF2B7D0FB3009216A6 /* Products */ = {
+		5272D0C02B7E3D8B00A7F1AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				523C30EE2B7D0FB3009216A6 /* 3d-public-transportation.app */,
+				5272D0BF2B7E3D8B00A7F1AF /* 3d-public-transportation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		523C30F02B7D0FB3009216A6 /* 3d-public-transportation */ = {
+		5272D0C12B7E3D8B00A7F1AF /* 3d-public-transportation */ = {
 			isa = PBXGroup;
 			children = (
-				523C31052B7D1873009216A6 /* -d-public-transportation-Info.plist */,
-				523C30F12B7D0FB3009216A6 /* _d_public_transportationApp.swift */,
-				523C30F32B7D0FB3009216A6 /* ContentView.swift */,
-				523C30F52B7D0FB3009216A6 /* Item.swift */,
-				523C30F72B7D0FB4009216A6 /* Assets.xcassets */,
-				523C30F92B7D0FB4009216A6 /* Preview Content */,
+				5272D0C22B7E3D8B00A7F1AF /* AppDelegate.swift */,
+				5272D0C42B7E3D8B00A7F1AF /* SceneDelegate.swift */,
+				5272D0C62B7E3D8B00A7F1AF /* ViewController.swift */,
+				5272D0D92B7E422A00A7F1AF /* Car.gltf */,
+				5272D0C82B7E3D8B00A7F1AF /* Main.storyboard */,
+				5272D0CB2B7E3D8D00A7F1AF /* Assets.xcassets */,
+				5272D0CD2B7E3D8D00A7F1AF /* LaunchScreen.storyboard */,
+				5272D0D02B7E3D8D00A7F1AF /* Info.plist */,
 			);
 			path = "3d-public-transportation";
-			sourceTree = "<group>";
-		};
-		523C30F92B7D0FB4009216A6 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				523C30FA2B7D0FB4009216A6 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		523C30ED2B7D0FB3009216A6 /* 3d-public-transportation */ = {
+		5272D0BE2B7E3D8B00A7F1AF /* 3d-public-transportation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 523C30FE2B7D0FB4009216A6 /* Build configuration list for PBXNativeTarget "3d-public-transportation" */;
+			buildConfigurationList = 5272D0D32B7E3D8D00A7F1AF /* Build configuration list for PBXNativeTarget "3d-public-transportation" */;
 			buildPhases = (
-				523C30EA2B7D0FB3009216A6 /* Sources */,
-				523C30EB2B7D0FB3009216A6 /* Frameworks */,
-				523C30EC2B7D0FB3009216A6 /* Resources */,
+				5272D0BB2B7E3D8B00A7F1AF /* Sources */,
+				5272D0BC2B7E3D8B00A7F1AF /* Frameworks */,
+				5272D0BD2B7E3D8B00A7F1AF /* Resources */,
 			);
 			buildRules = (
 			);
@@ -91,28 +92,28 @@
 			);
 			name = "3d-public-transportation";
 			packageProductDependencies = (
-				523C31072B7D18E8009216A6 /* MapboxMaps */,
+				5272D0D72B7E3DEC00A7F1AF /* MapboxMaps */,
 			);
 			productName = "3d-public-transportation";
-			productReference = 523C30EE2B7D0FB3009216A6 /* 3d-public-transportation.app */;
+			productReference = 5272D0BF2B7E3D8B00A7F1AF /* 3d-public-transportation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		523C30E62B7D0FB3009216A6 /* Project object */ = {
+		5272D0B72B7E3D8B00A7F1AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					523C30ED2B7D0FB3009216A6 = {
+					5272D0BE2B7E3D8B00A7F1AF = {
 						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
-			buildConfigurationList = 523C30E92B7D0FB3009216A6 /* Build configuration list for PBXProject "3d-public-transportation" */;
+			buildConfigurationList = 5272D0BA2B7E3D8B00A7F1AF /* Build configuration list for PBXProject "3d-public-transportation" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,46 +121,68 @@
 				en,
 				Base,
 			);
-			mainGroup = 523C30E52B7D0FB3009216A6;
+			mainGroup = 5272D0B62B7E3D8B00A7F1AF;
 			packageReferences = (
-				523C31062B7D18E8009216A6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+				5272D0D62B7E3DEC00A7F1AF /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
 			);
-			productRefGroup = 523C30EF2B7D0FB3009216A6 /* Products */;
+			productRefGroup = 5272D0C02B7E3D8B00A7F1AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				523C30ED2B7D0FB3009216A6 /* 3d-public-transportation */,
+				5272D0BE2B7E3D8B00A7F1AF /* 3d-public-transportation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		523C30EC2B7D0FB3009216A6 /* Resources */ = {
+		5272D0BD2B7E3D8B00A7F1AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523C30FB2B7D0FB4009216A6 /* Preview Assets.xcassets in Resources */,
-				523C30F82B7D0FB4009216A6 /* Assets.xcassets in Resources */,
+				5272D0CF2B7E3D8D00A7F1AF /* LaunchScreen.storyboard in Resources */,
+				5272D0DA2B7E422A00A7F1AF /* Car.gltf in Resources */,
+				5272D0CC2B7E3D8D00A7F1AF /* Assets.xcassets in Resources */,
+				5272D0CA2B7E3D8B00A7F1AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		523C30EA2B7D0FB3009216A6 /* Sources */ = {
+		5272D0BB2B7E3D8B00A7F1AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523C30F42B7D0FB3009216A6 /* ContentView.swift in Sources */,
-				523C30F62B7D0FB3009216A6 /* Item.swift in Sources */,
-				523C30F22B7D0FB3009216A6 /* _d_public_transportationApp.swift in Sources */,
+				5272D0C72B7E3D8B00A7F1AF /* ViewController.swift in Sources */,
+				5272D0C32B7E3D8B00A7F1AF /* AppDelegate.swift in Sources */,
+				5272D0DC2B803F3500A7F1AF /* BearingManager.swift in Sources */,
+				5272D0C52B7E3D8B00A7F1AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		5272D0C82B7E3D8B00A7F1AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5272D0C92B7E3D8B00A7F1AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5272D0CD2B7E3D8D00A7F1AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5272D0CE2B7E3D8D00A7F1AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		523C30FC2B7D0FB4009216A6 /* Debug */ = {
+		5272D0D12B7E3D8D00A7F1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -222,7 +245,7 @@
 			};
 			name = Debug;
 		};
-		523C30FD2B7D0FB4009216A6 /* Release */ = {
+		5272D0D22B7E3D8D00A7F1AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -278,21 +301,19 @@
 			};
 			name = Release;
 		};
-		523C30FF2B7D0FB4009216A6 /* Debug */ = {
+		5272D0D42B7E3D8D00A7F1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"3d-public-transportation/Preview Content\"";
 				DEVELOPMENT_TEAM = N72YV583PU;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "-d-public-transportation-Info.plist";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "3d-public-transportation/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,21 +329,19 @@
 			};
 			name = Debug;
 		};
-		523C31002B7D0FB4009216A6 /* Release */ = {
+		5272D0D52B7E3D8D00A7F1AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"3d-public-transportation/Preview Content\"";
 				DEVELOPMENT_TEAM = N72YV583PU;
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "-d-public-transportation-Info.plist";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = "3d-public-transportation/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -341,20 +360,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		523C30E92B7D0FB3009216A6 /* Build configuration list for PBXProject "3d-public-transportation" */ = {
+		5272D0BA2B7E3D8B00A7F1AF /* Build configuration list for PBXProject "3d-public-transportation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				523C30FC2B7D0FB4009216A6 /* Debug */,
-				523C30FD2B7D0FB4009216A6 /* Release */,
+				5272D0D12B7E3D8D00A7F1AF /* Debug */,
+				5272D0D22B7E3D8D00A7F1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		523C30FE2B7D0FB4009216A6 /* Build configuration list for PBXNativeTarget "3d-public-transportation" */ = {
+		5272D0D32B7E3D8D00A7F1AF /* Build configuration list for PBXNativeTarget "3d-public-transportation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				523C30FF2B7D0FB4009216A6 /* Debug */,
-				523C31002B7D0FB4009216A6 /* Release */,
+				5272D0D42B7E3D8D00A7F1AF /* Debug */,
+				5272D0D52B7E3D8D00A7F1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -362,24 +381,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		523C31062B7D18E8009216A6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+		5272D0D62B7E3DEC00A7F1AF /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
 			requirement = {
-				kind = versionRange;
-				maximumVersion = 11.0.0;
-				minimumVersion = 10.0.0;
+				kind = exactVersion;
+				version = 11.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		523C31072B7D18E8009216A6 /* MapboxMaps */ = {
+		5272D0D72B7E3DEC00A7F1AF /* MapboxMaps */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 523C31062B7D18E8009216A6 /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			package = 5272D0D62B7E3DEC00A7F1AF /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
 			productName = MapboxMaps;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 523C30E62B7D0FB3009216A6 /* Project object */;
+	rootObject = 5272D0B72B7E3D8B00A7F1AF /* Project object */;
 }
