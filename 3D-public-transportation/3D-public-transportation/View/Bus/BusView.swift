@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct BusView: View {
+    @StateObject var busList: BusViewModel = BusViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            busList.printBusList()
+        }, label: {
+            Text("버스 도착 정보")
+        })
     }
-}
-
-#Preview {
-    BusView()
 }
