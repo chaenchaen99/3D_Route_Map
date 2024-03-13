@@ -7,28 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E90A2C52B91FBE5007F4611 /* Viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A2C42B91FBE5007F4611 /* Viewcontroller.swift */; };
+		2E90A2C72B91FC40007F4611 /* LocateMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A2C62B91FC40007F4611 /* LocateMe.swift */; };
+		2E90A2C92B92006E007F4611 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A2C82B92006E007F4611 /* LocationManager.swift */; };
+		2E90A2CB2B92048F007F4611 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A2CA2B92048F007F4611 /* MyButtonStyle.swift */; };
 		5272D0C32B7E3D8B00A7F1AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272D0C22B7E3D8B00A7F1AF /* AppDelegate.swift */; };
 		5272D0C52B7E3D8B00A7F1AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272D0C42B7E3D8B00A7F1AF /* SceneDelegate.swift */; };
-		5272D0C72B7E3D8B00A7F1AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272D0C62B7E3D8B00A7F1AF /* ViewController.swift */; };
 		5272D0CA2B7E3D8B00A7F1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5272D0C82B7E3D8B00A7F1AF /* Main.storyboard */; };
 		5272D0CC2B7E3D8D00A7F1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5272D0CB2B7E3D8D00A7F1AF /* Assets.xcassets */; };
 		5272D0CF2B7E3D8D00A7F1AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5272D0CD2B7E3D8D00A7F1AF /* LaunchScreen.storyboard */; };
 		5272D0D82B7E3DEC00A7F1AF /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 5272D0D72B7E3DEC00A7F1AF /* MapboxMaps */; };
-		5272D0DA2B7E422A00A7F1AF /* Car.gltf in Resources */ = {isa = PBXBuildFile; fileRef = 5272D0D92B7E422A00A7F1AF /* Car.gltf */; };
-		5272D0DC2B803F3500A7F1AF /* BearingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272D0DB2B803F3500A7F1AF /* BearingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E90A2C42B91FBE5007F4611 /* Viewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Viewcontroller.swift; path = "3D-public-transportation/Viewcontroller.swift"; sourceTree = SOURCE_ROOT; };
+		2E90A2C62B91FC40007F4611 /* LocateMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocateMe.swift; path = "3D-public-transportation/LocateMe.swift"; sourceTree = SOURCE_ROOT; };
+		2E90A2C82B92006E007F4611 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		2E90A2CA2B92048F007F4611 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MyButtonStyle.swift; path = "3D-public-transportation/MyButtonStyle.swift"; sourceTree = SOURCE_ROOT; };
 		5272D0BF2B7E3D8B00A7F1AF /* 3d-public-transportation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3d-public-transportation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5272D0C22B7E3D8B00A7F1AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5272D0C42B7E3D8B00A7F1AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5272D0C62B7E3D8B00A7F1AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5272D0C92B7E3D8B00A7F1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5272D0CB2B7E3D8D00A7F1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5272D0CE2B7E3D8D00A7F1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5272D0D02B7E3D8D00A7F1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5272D0D92B7E422A00A7F1AF /* Car.gltf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Car.gltf; path = ../../../../Downloads/Car.gltf; sourceTree = "<group>"; };
-		5272D0DB2B803F3500A7F1AF /* BearingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,7 @@
 		5272D0B62B7E3D8B00A7F1AF = {
 			isa = PBXGroup;
 			children = (
-				5272D0DB2B803F3500A7F1AF /* BearingManager.swift */,
+				2E90A2C82B92006E007F4611 /* LocationManager.swift */,
 				5272D0C12B7E3D8B00A7F1AF /* 3d-public-transportation */,
 				5272D0C02B7E3D8B00A7F1AF /* Products */,
 			);
@@ -65,12 +67,13 @@
 			children = (
 				5272D0C22B7E3D8B00A7F1AF /* AppDelegate.swift */,
 				5272D0C42B7E3D8B00A7F1AF /* SceneDelegate.swift */,
-				5272D0C62B7E3D8B00A7F1AF /* ViewController.swift */,
-				5272D0D92B7E422A00A7F1AF /* Car.gltf */,
 				5272D0C82B7E3D8B00A7F1AF /* Main.storyboard */,
 				5272D0CB2B7E3D8D00A7F1AF /* Assets.xcassets */,
 				5272D0CD2B7E3D8D00A7F1AF /* LaunchScreen.storyboard */,
 				5272D0D02B7E3D8D00A7F1AF /* Info.plist */,
+				2E90A2C42B91FBE5007F4611 /* Viewcontroller.swift */,
+				2E90A2C62B91FC40007F4611 /* LocateMe.swift */,
+				2E90A2CA2B92048F007F4611 /* MyButtonStyle.swift */,
 			);
 			path = "3d-public-transportation";
 			sourceTree = "<group>";
@@ -113,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5272D0BA2B7E3D8B00A7F1AF /* Build configuration list for PBXProject "3d-public-transportation" */;
+			buildConfigurationList = 5272D0BA2B7E3D8B00A7F1AF /* Build configuration list for PBXProject "3D-public-transportation" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +143,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5272D0CF2B7E3D8D00A7F1AF /* LaunchScreen.storyboard in Resources */,
-				5272D0DA2B7E422A00A7F1AF /* Car.gltf in Resources */,
 				5272D0CC2B7E3D8D00A7F1AF /* Assets.xcassets in Resources */,
 				5272D0CA2B7E3D8B00A7F1AF /* Main.storyboard in Resources */,
 			);
@@ -153,9 +155,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5272D0C72B7E3D8B00A7F1AF /* ViewController.swift in Sources */,
 				5272D0C32B7E3D8B00A7F1AF /* AppDelegate.swift in Sources */,
-				5272D0DC2B803F3500A7F1AF /* BearingManager.swift in Sources */,
+				2E90A2CB2B92048F007F4611 /* MyButtonStyle.swift in Sources */,
+				2E90A2C92B92006E007F4611 /* LocationManager.swift in Sources */,
+				2E90A2C52B91FBE5007F4611 /* Viewcontroller.swift in Sources */,
+				2E90A2C72B91FC40007F4611 /* LocateMe.swift in Sources */,
 				5272D0C52B7E3D8B00A7F1AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,11 +315,15 @@
 				DEVELOPMENT_TEAM = N72YV583PU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "3d-public-transportation/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "위치 접근을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "위치 접근을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치 접근을 위해 권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,11 +347,15 @@
 				DEVELOPMENT_TEAM = N72YV583PU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "3d-public-transportation/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "위치 접근을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "위치 접근을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "위치 접근을 위해 권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,7 +372,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5272D0BA2B7E3D8B00A7F1AF /* Build configuration list for PBXProject "3d-public-transportation" */ = {
+		5272D0BA2B7E3D8B00A7F1AF /* Build configuration list for PBXProject "3D-public-transportation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5272D0D12B7E3D8D00A7F1AF /* Debug */,
