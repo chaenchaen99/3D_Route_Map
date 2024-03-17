@@ -17,8 +17,11 @@
 		5272D0CC2B7E3D8D00A7F1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5272D0CB2B7E3D8D00A7F1AF /* Assets.xcassets */; };
 		5272D0CF2B7E3D8D00A7F1AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5272D0CD2B7E3D8D00A7F1AF /* LaunchScreen.storyboard */; };
 		5272D0D82B7E3DEC00A7F1AF /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 5272D0D72B7E3DEC00A7F1AF /* MapboxMaps */; };
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> fd7c1417dac4e598d69df9187cfe4844033cdc8c
 		5272D0DC2B803F3500A7F1AF /* BearingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5272D0DB2B803F3500A7F1AF /* BearingManager.swift */; };
 		527D1BEE2BA1C08400676BB8 /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D1BED2BA1C08400676BB8 /* BusStop.swift */; };
 		527D1BF02BA1C18A00676BB8 /* BusLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D1BEF2BA1C18A00676BB8 /* BusLists.swift */; };
@@ -30,7 +33,10 @@
 		52C40F402B861A0100F65A01 /* HomeVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C40F3F2B861A0100F65A01 /* HomeVIewModel.swift */; };
 		52C40F442B861BBC00F65A01 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C40F432B861BBC00F65A01 /* HomeViewController.swift */; };
 		52C40F462B861D6900F65A01 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C40F452B861D6900F65A01 /* HomeView.swift */; };
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> fd7c1417dac4e598d69df9187cfe4844033cdc8c
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,8 +51,11 @@
 		5272D0CB2B7E3D8D00A7F1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5272D0CE2B7E3D8D00A7F1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5272D0D02B7E3D8D00A7F1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
+=======
+>>>>>>> fd7c1417dac4e598d69df9187cfe4844033cdc8c
 		5272D0DB2B803F3500A7F1AF /* BearingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BearingManager.swift; sourceTree = "<group>"; };
 		527D1BED2BA1C08400676BB8 /* BusStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
 		527D1BEF2BA1C18A00676BB8 /* BusLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusLists.swift; sourceTree = "<group>"; };
@@ -58,7 +67,10 @@
 		52C40F3F2B861A0100F65A01 /* HomeVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVIewModel.swift; sourceTree = "<group>"; };
 		52C40F432B861BBC00F65A01 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		52C40F452B861D6900F65A01 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> fd7c1417dac4e598d69df9187cfe4844033cdc8c
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +110,14 @@
 				52C40F372B86192F00F65A01 /* Models */,
 				5272D0C22B7E3D8B00A7F1AF /* AppDelegate.swift */,
 				5272D0C42B7E3D8B00A7F1AF /* SceneDelegate.swift */,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
 				5272D0C62B7E3D8B00A7F1AF /* ViewController.swift */,
 >>>>>>> Stashed changes
+=======
+				5272D0C62B7E3D8B00A7F1AF /* ViewController.swift */,
+>>>>>>> fd7c1417dac4e598d69df9187cfe4844033cdc8c
 				5272D0C82B7E3D8B00A7F1AF /* Main.storyboard */,
 				5272D0CB2B7E3D8D00A7F1AF /* Assets.xcassets */,
 				5272D0CD2B7E3D8D00A7F1AF /* LaunchScreen.storyboard */,
@@ -237,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 				5272D0C32B7E3D8B00A7F1AF /* AppDelegate.swift in Sources */,
 				2E90A2CB2B92048F007F4611 /* MyButtonStyle.swift in Sources */,
@@ -249,6 +266,13 @@
 				52C40F402B861A0100F65A01 /* HomeVIewModel.swift in Sources */,
 				5272D0C72B7E3D8B00A7F1AF /* ViewController.swift in Sources */,
 				5272D0C32B7E3D8B00A7F1AF /* AppDelegate.swift in Sources */,
+=======
+				527D1BEE2BA1C08400676BB8 /* BusStop.swift in Sources */,
+				52C40F462B861D6900F65A01 /* HomeView.swift in Sources */,
+				52C40F402B861A0100F65A01 /* HomeVIewModel.swift in Sources */,
+				5272D0C72B7E3D8B00A7F1AF /* ViewController.swift in Sources */,
+				5272D0C32B7E3D8B00A7F1AF /* AppDelegate.swift in Sources */,
+>>>>>>> fd7c1417dac4e598d69df9187cfe4844033cdc8c
 				527D1BF02BA1C18A00676BB8 /* BusLists.swift in Sources */,
 				52C40F442B861BBC00F65A01 /* HomeViewController.swift in Sources */,
 				5272D0DC2B803F3500A7F1AF /* BearingManager.swift in Sources */,
@@ -256,7 +280,10 @@
 				527D1BF42BA1C50700676BB8 /* BusView.swift in Sources */,
 				52C40F3C2B86195C00F65A01 /* APIService.swift in Sources */,
 				527D1BF62BA1C65000676BB8 /* BusUIViewController.swift in Sources */,
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> fd7c1417dac4e598d69df9187cfe4844033cdc8c
 				5272D0C52B7E3D8B00A7F1AF /* SceneDelegate.swift in Sources */,
 				527D1BF22BA1C4C200676BB8 /* BusViewModel.swift in Sources */,
 			);
